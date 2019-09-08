@@ -6,7 +6,7 @@ const express = require('express');
 const Datastore = require('nedb');
 const request = require('request');
 var async = require("async");
-const key = 'AIzaSyAVtG_8VMv0PARYhRu2BYY9e92ITWlxsRw';
+const key = 'xxx';
 
 const app = express();
 
