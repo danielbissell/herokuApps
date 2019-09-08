@@ -6,7 +6,7 @@ const express = require('express');
 const Datastore = require('nedb');
 const request = require('request');
 var async = require("async");
-const key = ENV['api_key'];
+const key = env('api_key');
 
 const app = express();
 
